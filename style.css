@@ -42,6 +42,7 @@ body {
     padding: 10px;
     border-radius: 20px;
     
+    
 
 }
 
@@ -98,8 +99,15 @@ body {
     padding: 10px;
     border-radius: 20px;
     color: white;
+    cursor: pointer;
+    border: #AF4EF2 solid 1px;
 }
+.cate p:hover{
+    color: black;
+    background-color: transparent;
+    border: #AF4EF2 solid 1px;
 
+}
 .main__image img {
     width: 100%;
    
@@ -116,8 +124,21 @@ body {
     top: 50px;
     left: 20%;
     background: white;
+    animation-name: zoom;
+    animation-duration: 10s;
+
     
 }
+@keyframes zoom{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 .recom__card {
     padding: 20px;
     width: 250px;
