@@ -14,6 +14,11 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    background-color: white;
+    
 }
 
 .navbar__s1__tittle {
@@ -36,12 +41,14 @@ body {
     border: 1px solid;
     padding: 10px;
     border-radius: 20px;
+    
 
 }
 
 .navbar__s2 input {
     width: 100%;
     border: none;
+    background-color: transparent;
 
 }
 
@@ -49,6 +56,33 @@ body {
     padding: 10px;
     display: flex;
     gap: 10px;
+    
+    
+    
+}
+.my__learn__s1{
+    position: relative;
+
+}
+.my__learn__pop{
+    position: relative;
+    cursor: pointer;
+}
+
+.my__learn{
+    padding: 10px;
+    width: 100px;
+    border: solid 1px;
+   position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    display: none;
+    
+}
+.my__learn__pop:hover .my__learn{
+    
+    display: block;
 }
 
 .cate {
@@ -67,8 +101,22 @@ body {
 
 .main__image img {
     width: 100%;
+   
+}
+.main__image{
+    position: relative;
 }
 
+.main__image__para{
+    width: 30%;
+    padding: 10px;
+    border: solid 2px;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    background: white;
+    
+}
 .recom__card {
     padding: 20px;
     width: 250px;
